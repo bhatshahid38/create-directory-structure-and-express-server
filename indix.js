@@ -1,6 +1,6 @@
 const express = require('express');
 app = express();
-const port = 7010;
+const port = 7020;
  //use express router
 app.use("/",require("./routes/indix.js"))
 

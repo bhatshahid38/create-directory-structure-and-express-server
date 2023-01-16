@@ -3,4 +3,5 @@ const router  = express.Router();
 module.exports = router
 const homecontroller = require('../controllers/home_controller')
 router.get('/',homecontroller.home)
+router.use("/user",require("./user"))
 
